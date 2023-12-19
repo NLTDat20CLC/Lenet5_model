@@ -5,10 +5,9 @@
 Download and unzip [MNIST](http://yann.lecun.com/exdb/mnist/) dataset in `mini-dnn-cpp/data/mnist/`.
 
 ```shell
-mkdir build
-cd build
-cmake ..
-make
+!mkdir build
+!cmake Lenet5_PP
+!make
 ```
 
 Run `./demo`.
