@@ -5,8 +5,11 @@
 Download and unzip [MNIST](http://yann.lecun.com/exdb/mnist/) dataset in `mini-dnn-cpp/data/mnist/`.
 
 ```shell
+#using google colab
+%cd mini-dnn-cpp
 !mkdir build
-!cmake Lenet5_PP
+%cd build
+!cmake ..
 !make
 ```
 
