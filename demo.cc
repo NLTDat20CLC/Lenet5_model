@@ -27,7 +27,7 @@
 
 int main() {
   // data
-  MNIST dataset("/content/mini-dnn-cpp/data/mnist/");
+  MNIST dataset("/content/Lenet5_PP/data/mnist/");
   dataset.read();
   int n_train = dataset.train_data.cols();
   int dim_in = dataset.train_data.rows();
