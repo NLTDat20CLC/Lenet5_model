@@ -2,11 +2,11 @@
 **mini-dnn-cpp** is a C++ demo of deep neural networks. It is implemented purely in C++, whose only dependency, Eigen, is header-only. 
 
 ## Usage
-Download and unzip [MNIST](http://yann.lecun.com/exdb/mnist/) dataset in `mini-dnn-cpp/data/mnist/`.
+Download and unzip [fashionMNIST](https://github.com/zalandoresearch/fashion-mnist) dataset in `Lenet5_PP/data/mnist/`.
 
 ```shell
 #using google colab
-%cd mini-dnn-cpp
+%cd Lenet5_PP
 !mkdir build
 %cd build
 !cmake ..
